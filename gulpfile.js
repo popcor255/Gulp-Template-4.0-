@@ -48,7 +48,7 @@ gulp.task("content", function() {
 
 // Optimizes our image files and outputs them to build/image/*
 gulp.task("images", function() {
-  return gulp.src(paths.images).pipe(gulp.dest("./build/image/"));
+  return gulp.src(paths.images).pipe(gulp.dest("./build/images/"));
 });
 
 // Watches for changes to our files and executes required scripts
